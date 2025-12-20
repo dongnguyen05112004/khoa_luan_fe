@@ -3,8 +3,16 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 const routes = [
     
     {
-        path : '/admin/danhmuc',
-        component: ()=>import('../components/admin/danh_muc/danh_muc.vue')
+        path : '/admin',
+        component: ()=>import('../components/admin/admin.vue')
+    },
+    {
+        path : '/nhanvien',
+        component: ()=>import('../components/nhanvien/nhanvien.vue')
+    },
+    {
+        path : '/quanly',
+        component: ()=>import('../components/quanly/quanly.vue')
     },
     
     
