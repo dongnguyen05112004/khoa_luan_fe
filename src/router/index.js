@@ -3,21 +3,24 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 const routes = [
     
     {
-        path : '/admin',
-        component: ()=>import('../components/admin/admin.vue')
+        path: '/', 
+        component: () => import('../layout/wrapper/index.vue'), 
+        meta: { layout: "index" },
+        children: [
+            {
+                path: '/admin',
+                component: () => import('../components/admin/admin.vue'),
+            },
+            {
+                path: '/nhanvien', 
+                component: () => import('../components/nhanvien/nhanvien.vue'),
+            },
+            {
+                path: '/khachhang', 
+                component: () => import('../components/khachhang/khachhang.vue'),
+            },
+        ]
     },
-    {
-        path : '/nhanvien',
-        component: ()=>import('../components/nhanvien/nhanvien.vue')
-    },
-    {
-        path : '/quanly',
-        component: ()=>import('../components/quanly/quanly.vue')
-    },
-    
-    
-
-
     
 ]
 
