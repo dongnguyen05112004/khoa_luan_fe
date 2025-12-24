@@ -20,9 +20,13 @@
                     <ul id="iq-sidebar-toggle" class="iq-menu">
                         <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>HÀNH TRÌNH CỦA TÔI</span></li>
                         <li class="active">
-                            <a href="#" class="iq-waves-effect"><i class="ri-dashboard-fill"></i><span>Tổng
-                                    quan</span></a>
+                            <a class="nav-link" href="/admin">
+                                            <div class="menu-title">
+                                                <h6>Dashboard</h6>
+                                            </div>
+                                        </a>
                         </li>
+                        
                         <li>
                             <a href="#" class="iq-waves-effect"><i class="ri-heart-pulse-line"></i><span>Chỉ số sức
                                     khỏe</span></a>
