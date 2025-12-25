@@ -61,7 +61,7 @@
 
                 <div class="iq-header-left">
                     <div class="btn-group">
-                        <p class="h5 mt-2"> Dashboard Cá Nhân</p>
+                        <p class="h5 mt-2">Nhan vien</p>
                     </div>
                 </div>
 
