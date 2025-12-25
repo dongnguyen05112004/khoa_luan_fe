@@ -21,15 +21,18 @@
                         <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>HÀNH TRÌNH CỦA TÔI</span></li>
                         <li class="active">
                             <a class="nav-link" href="/admin">
-                                            <div class="menu-title">
-                                                <h6>Dashboard</h6>
-                                            </div>
-                                        </a>
+                                <div class="menu-title">
+                                    <h6>Dashboard</h6>
+                                </div>
+                            </a>
                         </li>
-                        
+
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-heart-pulse-line"></i><span>Chỉ số sức
-                                    khỏe</span></a>
+                            <a class="nav-link" href="/chisosuckhoe">
+                                <div class="menu-title">
+                                    <h6>Chi so suc khoe</h6>
+                                </div>
+                            </a>
                         </li>
                         <li>
                             <a href="#" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Lịch tập
@@ -81,7 +84,7 @@
                         style="width: 40px; height: 40px;">
                         <i class="fa-regular fa-bell"></i>
                     </button>
- 
+
                     <div class="position-relative d-inline-block">
                         <button class="btn btn-white border-dark rounded-pill  d-flex align-items-center " type="button"
                             data-toggle="collapse" data-target="#user-menu"
@@ -107,10 +110,10 @@
             </div>
         </div>
     </div>
-     
+
     <div class="overlay toggle-icon"></div>
     <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-    
+
     <footer class="page-footer text-center">
         <p class="mb-0">Đông - Quang - Trọng - Đức - Trang</p>
     </footer>
