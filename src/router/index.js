@@ -39,6 +39,28 @@ const routes = [
         ]
     },
     {
+        path: '/adminqlkhachhang', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqlkhachhang',
+                component: () => import('../components/admin/quanlykhachhang/index.vue'),
+            }, 
+        ]
+    },
+    {
+        path: '/adminqlthietbi', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqlthietbi',
+                component: () => import('../components/admin/quanlythietbi/index.vue'),
+            }, 
+        ]
+    },
+    {
         path: '/nhanvien', 
         component: () => import('../layout/wrapper/nhanvien.vue'), 
         meta: { layout: "nhanvien" },

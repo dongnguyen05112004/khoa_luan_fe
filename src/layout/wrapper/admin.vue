@@ -25,11 +25,13 @@
                         </li>
                         <li>
                             <a href=" /chisosuckhoe" class="iq-waves-effect nav-link"><i class="ri-heart-pulse-line"></i><span>Chỉ số sức
-                                    khỏe</span></a> 
+                                    khỏe</span></a>  
                         </li>
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Lịch tập
-                                    luyện</span></a>
+                            <a href="/adminqlkhachhang" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Quản lý khách hàng</span></a>
+                        </li>
+                        <li>
+                            <a href="/adminqlthietbi" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Quản lý thiết bị</span></a>
                         </li>
 
                         <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>DỊCH VỤ & GÓI TẬP</span></li>
