@@ -61,6 +61,11 @@ const routes = [
             },
         ]
     },
+    {
+        path: '/gioithieu', 
+        component: () => import('../layout/wrapper/Gioi_thieu.vue'), 
+        meta: { layout: "blank" },
+    },
     
 ]
 

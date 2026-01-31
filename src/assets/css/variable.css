@@ -2,7 +2,7 @@
 Variable
 -----------------------------------------------------------------------*/
 
-:root {
+/* :root {
   --iq-card-shadow-1:rgba(226, 190, 253,.15);
   --iq-card-shadow-2:rgba(226, 190, 253,.15);
   --iq-primary-shadow-1:rgba(78,31,249,.5);
@@ -15,8 +15,8 @@ Variable
   --iq-dropdown-bg: #fff;
   --iq-dropdown-border: #fff;
   --iq-bg-dark-bg: #6d73f6;  /* pending  not give dark mode */ 
-  --iq-bg-light-color: #FDFAFF; /* pending  not give*/
-  --iq-primary: hsl(253deg 61% 55%);
+  /* --iq-bg-light-color: #FDFAFF; /* pending  not give*/
+  /* --iq-primary: hsl(253deg 61% 55%);
   --iq-primary-light: hsl(253deg 61% 85%);
   --iq-primary-dark: hsl(253deg 61% 45%);
   --iq-secondary: #FF7A29;
@@ -40,22 +40,52 @@ Variable
   --iq-black: #000000;  
   --iq-cyan: #0cd2e3;  
   --iq-icon-color: #8c91b6;  /* pending icon and text */
-  --iq-light-primary: hsl(253deg 61% 85%);
+  /* --iq-light-primary: hsl(253deg 61% 85%);
   --iq-light-secondary: #FF7A2940;
   --iq-light-success: #06C27040;  
   --iq-light-danger: #FF292940;   
   --iq-light-warning: #FAD02E40;  
-  --iq-light-info: #00CFDE40;    
-  --iq-light-dark: #f0efef;   /* pending  not give*/
-  --iq-cobalt-blue: #3f79f1; 
+  --iq-light-info: #00CFDE40;     */
+  /* --iq-light-dark: #f0efef;   pending  not give */
+  /* --iq-cobalt-blue: #3f79f1; 
   --iq-spring-green: #1be1b3; 
   --iq-amber: #f4b72a;   
-  --iq-pink: #FF5DCD;
-  --iq-blue-dark: #5a61fd;  /* pending dark mode sidebar */
-  --iq-color-light: #edf3ff;   
+  --iq-pink: #FF5DCD; */
+  /* --iq-blue-dark: #5a61fd;  /* pending dark mode sidebar */
+  /* --iq-color-light: #edf3ff;   
   --iq-progress-light: #eef1f7;  
-  --iq-light-border: #f2edff;  
-  --iq-dark-border: #d7dbda;    
+  --iq-light-border: #f2edff;    */
+  /* --iq-dark-border: #d7dbda;     */
+/* }  */
+:root {
+  /* --- ĐỔI NỀN VỀ TRẮNG --- */
+  --iq-body-bg: #ffffff; /* Nền trang trắng sạch */
+  --iq-card-bg: #ffffff; /* Nền card trắng */
+  --iq-white: #ffffff;
+  --iq-light: #f8f9fa;
+  --iq-color-light: #f0f4f2; /* Xanh lá cực nhạt cho hover */
+
+  /* --- THAY MÀU TÍM BẰNG XANH RÊU (Primary) --- */
+  --iq-primary: #B6B28C !important;       /* Xanh rêu trung tính, không quá đậm */
+  --iq-primary-light: #f1f5f3 !important; /* Xanh cực nhạt cho nền khối hoặc hover */
+  --iq-primary-dark: #B6B28C !important;
+
+  /* --- CÁC MÀU NHẤN KHÁC THEO ẢNH MẪU --- */
+  --iq-warning: #ff9d43;       /* Màu Cam (Revenue Today) */
+  --iq-danger: #ff4351;        /* Màu Đỏ (Total Income) */
+  --iq-info: #84968d;          /* Màu Xám xanh (System Status) */
+  --iq-success: #06C270;
+
+  /* --- ĐỔ CHỈNH ĐỔ BÓNG (Shadow) CHO NHẸ NHÀNG --- */
+  --iq-card-shadow-1: rgba(0, 0, 0, .05);
+  --iq-card-shadow-2: rgba(0, 0, 0, .08);
+  --iq-dropdown-shadow: rgba(0, 0, 0, .1);
+
+  /* --- MÀU CHỮ VÀ VIỀN --- */
+  --iq-title-text: #1e293b;    /* Chữ tiêu đề đậm hơn */
+  --iq-body-text: #475569;     /* Chữ nội dung xám xanh chuyên nghiệp */
+  --iq-light-border: #e2e8f0;  /* Viền nhạt thanh mảnh */
+  --iq-icon-color: #64748b;    /* Màu icon xám */
 }
 
 /* Dark Variable */

@@ -18,7 +18,7 @@
             <div id="sidebar-scrollbar">
                 <nav class="iq-sidebar-menu mt-3">
                     <ul id="iq-sidebar-toggle" class="iq-menu">
-                        <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>HÀNH TRÌNH CỦA TÔI</span></li>
+                        <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>MY JOURNEY</span></li>
                         <li class="active">
                             <a class="nav-link" href="/admin">
                                 <div class="menu-title">
@@ -30,33 +30,28 @@
                         <li>
                             <a class="nav-link" href="/chisosuckhoe">
                                 <div class="menu-title">
-                                    <h6>Chi so suc khoe</h6>
+                                    <h6>Health Metrics</h6>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Lịch tập
-                                    luyện</span></a>
+                            <a href="#" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Training Schedule</span></a>
                         </li>
 
-                        <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>DỊCH VỤ & GÓI TẬP</span></li>
+                        <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>SERVICES & PACKAGES</span></li>
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-vip-crown-2-line"></i><span>Gói tập hiện
-                                    tại</span></a>
+                            <a href="#" class="iq-waves-effect"><i class="ri-vip-crown-2-line"></i><span>Current Membership</span></a>
                         </li>
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-user-star-line"></i><span>Huấn luyện viên
-                                    (PT)</span></a>
+                            <a href="#" class="iq-waves-effect"><i class="ri-user-star-line"></i><span>Personal Trainer (PT)</span></a>
                         </li>
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-shopping-bag-3-line"></i><span>Cửa hàng bổ
-                                    sung</span></a>
+                            <a href="#" class="iq-waves-effect"><i class="ri-shopping-bag-3-line"></i><span>Supplement Store</span></a>
                         </li>
 
-                        <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>HỖ TRỢ</span></li>
+                        <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>SUPPORT</span></li>
                         <li>
-                            <a href="#" class="iq-waves-effect"><i class="ri-questionnaire-line"></i><span>Hỏi đáp
-                                    (FAQ)</span></a>
+                            <a href="#" class="iq-waves-effect"><i class="ri-questionnaire-line"></i><span>FAQs</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -68,7 +63,7 @@
 
                 <div class="iq-header-left">
                     <div class="btn-group">
-                        <p class="h5 mt-2"> Dashboard Cá Nhân</p>
+                        <p class="h5 mt-2"> My Dashboard</p>
                     </div>
                 </div>
 
@@ -93,10 +88,10 @@
                         </button>
 
                         <ul id="user-menu" class="iq-submenu collapse text-start" data-parent="#iq-sidebar-toggle">
-                            <li> <i class="ri-profile-line me-2"></i>Hồ sơ cá nhân </li>
-                            <li><i class="ri-vip-crown-line me-2"></i>Gói tập của tôi</li>
-                            <li><i class="ri-history-line me-2"></i>Lịch sử tập luyện</li>
-                            <li><i class="ri-logout-box-r-line me-2"></i>Đăng xuất</li>
+                            <li> <i class="ri-profile-line me-2"></i>My Profile </li>
+                            <li><i class="ri-vip-crown-line me-2"></i>My training package</li>
+                            <li><i class="ri-history-line me-2"></i>Workout History</li>
+                            <li><i class="ri-logout-box-r-line me-2"></i>Logout</li>
                         </ul>
                     </div>
                 </div>
