@@ -108,7 +108,7 @@
                         <h5>Name:..........</h5>
                         <h5>ID:..........</h5>
                         <h5>Category:..........</h5>
-                        <h5>Description:..........</h5>
+                        <h5>Description:...........</h5>
                         <h5>Status:..........</h5>
                         <h5>Amount:..........</h5>
                     </div>
