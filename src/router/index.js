@@ -61,6 +61,17 @@ const routes = [
         ]
     },
     {
+        path: '/adminqlthanhvien', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqlthanhvien',
+                component: () => import('../components/admin/quanlythanhvien/index.vue'),
+            }, 
+        ]
+    },
+    {
         path: '/nhanvien', 
         component: () => import('../layout/wrapper/nhanvien.vue'), 
         meta: { layout: "nhanvien" },
