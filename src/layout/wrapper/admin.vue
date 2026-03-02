@@ -40,6 +40,9 @@
                         <li>
                             <a href="/adminqlthanhvien" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Quản lý thành viên</span></a>
                         </li>
+                        <li>
+                            <a href="/adminqltaikhoan" class="iq-waves-effect"><i class="ri-calendar-todo-line"></i><span>Quản lý tài khoản</span></a>
+                        </li>
 
 
 
