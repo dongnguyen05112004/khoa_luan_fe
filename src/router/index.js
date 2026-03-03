@@ -36,6 +36,11 @@ const routes = [
                 path: '/admin',
                 component: () => import('../components/admin/admin.vue'),
             }, 
+            {
+                path: '/admin/cus_mgr',
+                component: () => import('../components/admin/cus_mgr.vue'),
+            }, 
+                
         ]
     },
     {
@@ -102,6 +107,10 @@ const routes = [
             {
                 path: '/chisosuckhoe', 
                 component: () => import('../components/khachhang/chisosuckhoe.vue'),
+            },
+            {
+                path: '/histori', 
+                component: () => import('../components/khachhang/histori.vue'),
             },
         ]
     },
