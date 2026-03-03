@@ -137,19 +137,33 @@ import "../../assets/js/maps.js";
 import "../../assets/js/worldLow.js";
 import "../../assets/js/chartist/chartist.min.js";
 import "../../assets/js/chart-custom.js";
-import "../../assets/js/custom.js";
+import "../../assets/js/custom.js"; 
 export default {
+    name: 'DashboardComponent',
+  mounted() {
+    // Đưa jQuery vào cửa sổ trình duyệt để các plugin cũ tìm thấy nó
+    window.jQuery = window.$ = jQuery;
 
+    // Chỉ nên load các script plugin bằng cách tạo thẻ <script> động 
+    // hoặc cấu hình trong file nuxt.config.js / main.js
+    this.initPlugins();
+  },
+  methods: {
+    initPlugins() {
+       // Khởi tạo các thư viện như Wow, Slick tại đây
+       console.log("Plugins đang được khởi tạo...");
+    }
+  }
 }
 </script>
 <style>
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"); 
 @import "../../assets/css/bootstrap.min.css";
 @import "../../assets/js/chartist/chartist.min.css";
 @import "../../assets/css/typography.css";
 @import "../../assets/css/style.css";
-@import "../../assets/css/responsive.css";
+@import "../../assets/css/responsive.css"; 
 
 /* Hiệu ứng xoay mũi tên */
 button[aria-expanded="true"] .arrow-icon {
@@ -171,4 +185,6 @@ button[aria-expanded="true"] .arrow-icon {
     color: #334155 !important;
     text-decoration: none;
 }
-</style>
+</style> 
+
+        
