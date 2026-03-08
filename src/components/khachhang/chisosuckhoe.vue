@@ -1,6 +1,5 @@
-<template>
-    <div>
-        <h5 class="ms-2" style="font-size: 30px;"><b>Health Metrics</b></h5>
+<template> 
+        <h5 class="ms-3" style="font-size: 30px;"><b>Health Metrics</b></h5>
         <div class="card mt-2 ">
             <div class="card-body" style="background-color: #B9B9B9; border-radius: 20px;">
                 <div class="row ">
@@ -163,8 +162,7 @@
 
                 </div>
             </div>
-        </div>
-    </div>
+        </div> 
 </template>
 <script>
 import { Line } from "vue-chartjs";

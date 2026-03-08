@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="row">
-            <div class="col-lg-9">
+        <div class="row mt-3 ms-3 me-3">
+            <div class="col-lg-9 ms-2">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="iq-card iq-card-block iq-card-stretch" style="position: relative;">
@@ -2168,4 +2168,6 @@ export default {
 
 }
 </script>
-<style></style>
+<style>
+
+</style>

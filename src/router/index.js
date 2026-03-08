@@ -5,11 +5,11 @@ const routes = [
     //     path: "/",
     //     redirect: "/dangnhap"  
     // },
-    // {
-    //     path: "/dangnhap",
-    //     component: () => import("../components/dang/dangnhap.vue"),
-    //     meta: { layout: "blank" },
-    // },
+    {
+        path: "/login",
+        component: () => import("../components/admin/Login.vue"),
+        meta: { layout: "blank" },
+    },
     // {
     //     path: "/dangky",
     //     component: () => import("../components/dang/dangky.vue"),
@@ -36,6 +36,11 @@ const routes = [
                 path: '/admin',
                 component: () => import('../components/admin/admin.vue'),
             }, 
+            {
+                path: '/admin/acc_mgr',
+                component: () => import('../components/admin/acc_mgr.vue'),
+            }, 
+            
             {
                 path: '/admin/cus_mgr',
                 component: () => import('../components/admin/cus_mgr.vue'),
