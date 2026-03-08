@@ -5,11 +5,11 @@ const routes = [
     //     path: "/",
     //     redirect: "/dangnhap"  
     // },
-    // {
-    //     path: "/dangnhap",
-    //     component: () => import("../components/dang/dangnhap.vue"),
-    //     meta: { layout: "blank" },
-    // },
+    {
+        path: "/login",
+        component: () => import("../components/admin/Login.vue"),
+        meta: { layout: "blank" },
+    },
     // {
     //     path: "/dangky",
     //     component: () => import("../components/dang/dangky.vue"),
@@ -36,6 +36,60 @@ const routes = [
                 path: '/admin',
                 component: () => import('../components/admin/admin.vue'),
             }, 
+            {
+                path: '/admin/acc_mgr',
+                component: () => import('../components/admin/acc_mgr.vue'),
+            }, 
+            
+            {
+                path: '/admin/cus_mgr',
+                component: () => import('../components/admin/cus_mgr.vue'),
+            }, 
+                
+        ]
+    },
+    {
+        path: '/adminqlkhachhang', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqlkhachhang',
+                component: () => import('../components/admin/quanlykhachhang/index.vue'),
+            }, 
+        ]
+    },
+    {
+        path: '/adminqlthietbi', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqlthietbi',
+                component: () => import('../components/admin/quanlythietbi/index.vue'),
+            }, 
+        ]
+    },
+    {
+        path: '/adminqlthanhvien', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqlthanhvien',
+                component: () => import('../components/admin/quanlythanhvien/index.vue'),
+            }, 
+        ]
+    },
+    {
+        path: '/adminqltaikhoan', 
+        component: () => import('../layout/wrapper/admin.vue'), 
+        meta: { layout: "admin" },
+        children: [
+            {
+                path: '/adminqltaikhoan',
+                component: () => import('../components/admin/quanlytaikhoan/index.vue'),
+            }, 
         ]
     },
     {
@@ -58,6 +112,10 @@ const routes = [
             {
                 path: '/chisosuckhoe', 
                 component: () => import('../components/khachhang/chisosuckhoe.vue'),
+            },
+            {
+                path: '/histori', 
+                component: () => import('../components/khachhang/histori.vue'),
             },
         ]
     },
