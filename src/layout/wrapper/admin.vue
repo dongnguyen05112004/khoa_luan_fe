@@ -79,7 +79,7 @@
               </button>
               <span class="notif-dot"></span>
             </div>
-
+ 
             <!-- User dropdown -->
             <div class="user-dropdown" @click="toggleUserMenu" v-click-outside="closeUserMenu">
               <div class="user-avatar">
@@ -102,7 +102,7 @@
                 <a href="#" class="user-menu-item logout">
                   <i class="ri-logout-box-r-line"></i> Đăng xuất
                 </a>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
